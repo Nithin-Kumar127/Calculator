@@ -27,17 +27,7 @@ const parts = input.split(/[+\-*/%]/);
                 input += '.';
                 display.value = input;
             }
- 
-         function toggleSign() {
-            if (!input) return;
-            
-            if (input.startsWith('-')) {
-                input = input.substring(1);
-            } else {
-                input = '-' + input;
-            }
-            display.value = input;
-        }           
+        
 
 function clearDisplay(){
     input = "";
@@ -48,6 +38,7 @@ function clearDisplay(){
     display.value = eval(display.value);
   }
 
+  display.value = "";
 
 
 

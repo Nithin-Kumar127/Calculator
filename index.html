@@ -9,10 +9,10 @@
   </head>
   <body>
       <div id="calculator">
-          <input id="display" type="text" >
+          <input id="display" type="text" readonly>
           <div id="keys">
           <button class="coloured" onclick="clearDisplay()">AC</button>
-          <button class="coloured" onclick="toggleSign()"><sup>+</sup>/<sub>-</sub></button>
+          <button class="coloured" onclick="clicktoDisplay()"><sup>+</sup>/<sub>-</sub></button>
           <button class="coloured" onclick="addOperator('%')">%</button>
           <button class="coloured-org" onclick="addOperator('/')">&#xf7;</button>
           <button onclick="addNumber('7')">7</button>
