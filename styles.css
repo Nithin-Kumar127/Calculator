@@ -213,3 +213,9 @@ button.coloured-org:active{
             25% { transform: translateX(-5px); }
             75% { transform: translateX(5px); }
         }
+
+        @media only screen and (min-width: 320px) and (max-width: 720px){
+              #calculator{
+                margin: 10px;
+              }
+    }
